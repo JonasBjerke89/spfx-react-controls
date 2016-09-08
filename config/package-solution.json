@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "sp-fx-custom-propertyfields-client-side-solution",
+    "id": "b3118cd0-6fae-4fa2-a9a7-49e245a36e6b",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "sp-fx-custom-propertyfields.spapp"
+  }
+}

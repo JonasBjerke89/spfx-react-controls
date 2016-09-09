@@ -85,6 +85,8 @@ private onDropDownChanged() : void{
         <Button elementType={ElementType.button} buttonType={ButtonType.primary} onClick={this.onShowDialogClicked.bind(this)}>Open dialog</Button>
         <Dialog ref="myDialog" contentClassName="ms-Dialog--sample" isOpen={false} title="My dialog" subText="This is my subtext" type={DialogType.close} onDismiss={this.onDialogClosed.bind(this)} />
         <Dropdown label="Choose a template" selectedKey="TeamSite#1" options={this.dropdownItems} onChanged={this.onDropDownChanged.bind(this)}  />
+
+        <div>My favorite color is: {this.props.color}</div>
         </div>
       </div>
     );
